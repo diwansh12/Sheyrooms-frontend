@@ -163,7 +163,7 @@ export interface NotificationPreferences {
 // ✅ Clean baseURL configuration
 const BASE_URL: string = (
   process.env.REACT_APP_API_URL || 
-  'https://sheyrooms-backend.vercel.app/api'
+  'https://sheyrooms.onrender.com/api'
 ).trim().replace(/\s+/g, '');
 
 console.log('🌐 API Base URL:', BASE_URL);

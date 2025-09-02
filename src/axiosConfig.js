@@ -4,7 +4,7 @@ import axios from 'axios';
 // ✅ FIXED: Environment-based URL selection
 const getBaseURL = () => {
   if (process.env.NODE_ENV === 'production') {
-    return 'https://sheyrooms-backend.vercel.app/api';
+    return 'https://sheyrooms.onrender.com/api';
   }
   // For development, use localhost
   return process.env.REACT_APP_API_URL || 'http://localhost:5000/api';

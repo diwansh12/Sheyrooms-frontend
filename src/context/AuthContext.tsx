@@ -56,7 +56,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const login = async ({ email, password }: LoginCredentials): Promise<LoginResult> => {
   try {
-    const response = await axios.post("http://localhost:5000/api/users/login", {
+    const response = await axios.post("https://sheyrooms.onrender.com/api/users/login", {
       email: email.trim().toLowerCase(),
       password,
     });
