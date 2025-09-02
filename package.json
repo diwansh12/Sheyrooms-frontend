@@ -17,7 +17,6 @@
     "axios": "^1.7.9",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "cors": "^2.8.5",
     "framer-motion": "^12.23.6",
     "lodash": "^4.17.21",
     "lucide-react": "^0.525.0",
@@ -28,7 +27,6 @@
     "react-helmet-async": "^2.0.5",
     "react-hook-form": "^7.62.0",
     "react-hot-toast": "^2.5.2",
-    "react-query": "^3.39.3",
     "react-router-dom": "^6.22.3",
     "react-scripts": "^5.0.1",
     "react-spinners": "^0.15.0",
@@ -60,7 +58,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000",
+  
   "devDependencies": {
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
