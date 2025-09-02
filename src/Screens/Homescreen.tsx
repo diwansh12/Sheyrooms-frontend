@@ -587,7 +587,8 @@ export default function Homescreen() {
                     <SelectContent className="bg-white border-2 border-gray-200 shadow-xl rounded-lg mt-2 z-50 min-w-full">
                       <SelectItem value="all" className="px-4 py-3 hover:bg-blue-50 cursor-pointer">Any type</SelectItem>
                       <SelectItem value="Standard" className="px-4 py-3 hover:bg-blue-50 cursor-pointer">Standard</SelectItem>
-                      <SelectItem value="Deluxe" className="px-4 py-3 hover:bg-blue-50 cursor-pointer">Deluxe</SelectItem>
+                       <SelectItem value="Non-Delux" className="px-4 py-3 hover:bg-blue-50 cursor-pointer">Non-Delux</SelectItem>
+                      <SelectItem value="Deluxe" className="px-4 py-3 hover:bg-blue-50 cursor-pointer">Delux</SelectItem>
                       <SelectItem value="Suite" className="px-4 py-3 hover:bg-blue-50 cursor-pointer">Suite</SelectItem>
                       <SelectItem value="Presidential" className="px-4 py-3 hover:bg-blue-50 cursor-pointer">Presidential</SelectItem>
                     </SelectContent>

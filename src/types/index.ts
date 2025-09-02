@@ -13,7 +13,7 @@ export interface Room {
   imageurls: string[];
   floor?: string | number; 
   currentbookings?: CurrentBooking[];
-  type: 'Standard' | 'Deluxe' | 'Delux' | 'Suite' | 'Presidential' | 'Family';
+  type: 'Standard' | 'Deluxe' | 'Delux' | 'Non-Delux' |'Suite' | 'Presidential' | 'Family';
   category?: 'Budget' | 'Mid-Range' | 'Luxury' | 'Premium';
   description: string;
   shortDescription?: string;
